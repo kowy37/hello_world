@@ -1,4 +1,14 @@
 #include <iostream>
+int exp(int e, int k)
+{
+  int res = 1;
+  for (int i = 0; i < k ++i)
+  {
+    res *= e; 
+  }
+  return e;
+}
+
 int plus (int a, int b)
 {
   return a + b;
