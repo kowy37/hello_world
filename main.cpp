@@ -1,4 +1,8 @@
 #include <iostream>
+int plus (int a, int b)
+{
+  return a + b;
+}
 int fact2(n,i,val) {
   if(i==n) {
     return val*i; 
