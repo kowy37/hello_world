@@ -12,6 +12,12 @@ int fact2(n,i,val) {
 int fact(int n) {
   fact2(n,2,1);
 }
+
+int zero()
+{
+  return 0;
+}
+
 int main() {
   std::cout << "Hello world" << std::endl
   return 0;
